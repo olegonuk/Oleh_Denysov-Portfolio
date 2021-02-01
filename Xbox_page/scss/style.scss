@@ -407,8 +407,6 @@ body.mouse .user__list > li:hover .menu-arrow-down {
 /*== Exclusive games ==*/
 .exclusive {
    &__games {
-      // background-position: center;
-      // background-size: cover;
       background: url("../img/Rectangle.png") 0 0 / 100% no-repeat;
 
       .btn {
@@ -532,13 +530,10 @@ body.mouse .user__list > li:hover .menu-arrow-down {
 .design {
    &__lab {
       padding: 115px 0px 145px;
-      // background-position: center;
-      // background-size: cover;
       background: url("../img/design_lab/design_lab.png") 0 0 / 100% no-repeat;
    }
 
    &__lab-info {
-      // margin: 100px 0px 145px 170px;
       span {
          font-size: 48px;
          line-height: 56px;
@@ -783,14 +778,12 @@ body.mouse .user__list > li:hover .menu-arrow-down {
       &__games {
          background-position: center;
          background-size: cover;
-         // background: url("../img/Rectangle.png") no-repeat;
       }
    }
    .design {
       &__lab {
          background-position: center;
          background-size: cover;
-         // background: url("../img/design_lab/design_lab.png") no-repeat;
       }
    }
 }
